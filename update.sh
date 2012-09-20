@@ -1,4 +1,4 @@
-files=`ls -d .* | grep '[a-z]'`
+files=`ls -d .* | grep '[a-z]' | grep -v 'git'`
 for file in $files; do
-  echo "cp $file ~/$file"
+ cp $file ../$file -r
 done
