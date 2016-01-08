@@ -110,4 +110,4 @@ imap <down> <c-o>gj
 " so ~/.vim/himtchbrkt.vim
 
 set nocindent           " turn off the cindent, just in case it's on
-colorscheme blackdust
+colorscheme evening
