@@ -109,3 +109,10 @@ function gh ()
   done
 }
 
+export PATH="$PATH:/Applications/DevDesktop/drush"
+
+function ga () 
+{
+  grep -R "$1" ./
+}
+
